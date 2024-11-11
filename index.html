@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>U2-S3-D1-esercizio</title>
+  </head>
+  <body>
+    <form id="petForm">
+      <label for="petName">Nome dell'Animale:</label>
+      <input type="text" id="petName" required />
+
+      <label for="ownerName">Nome del Proprietario:</label>
+      <input type="text" id="ownerName" required />
+
+      <label for="species">Specie:</label>
+      <input type="text" id="species" required />
+
+      <label for="breed">Razza:</label>
+      <input type="text" id="breed" required />
+
+      <button type="submit">Aggiungi Animale</button>
+    </form>
+
+    <h2>Elenco Animali</h2>
+    <ul id="petList"></ul>
+
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>

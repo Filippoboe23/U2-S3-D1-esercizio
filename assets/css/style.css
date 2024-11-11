@@ -1,0 +1,10 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+}
+form {
+  margin-bottom: 20px;
+}
+label {
+  display: block;
+  margin-top: 8px;
+}
